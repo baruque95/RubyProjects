@@ -22,3 +22,6 @@ Note que a maneira de escrita lembra a formatação de um arquivo Json.
 A tipagem do Ruby é dinâmica e forte, não tornando possível
 misturar classes diferentes de dados em uma mesma variável
 ou um mesmo Array.
+
+Input: gets.chomp <----- pega o input do usuário (exemplo
+no arquivo hello)
