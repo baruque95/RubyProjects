@@ -1,0 +1,24 @@
+Os tipos primitivos de dados em Ruby são, na verdade
+classes de dados, pela minha interpretação. Ao criar
+uma variável, ela é alocada como um objeto de uma classe,
+seja ela Integer, String ou qualquer outra. Repare que 
+no Java, por exemplo, é possível tratar um determinado
+dado como sendo de um tipo primitivo string, ou como 
+sendo de uma classe. A diferença neste caso é que, como
+se trata de uma classe, ao criar um objeto desta classe
+tem-se acesso a todos os métodos da mesma, tornando a 
+manipulação desses dados mais fácil.
+
+Existe também o tipo primitivo Symbol, que se trata de
+uma constante, que pode ser aplicada a mais de uma variável,
+ocupando sempre o mesmo espaço de memória. A sintaxe de um
+símbolo é que ele começa com ":", como exemplo :symbol 
+
+O tipo Hash é parecido com um Array, porém cada valor dentro
+dele pertence a uma chave específica. Sua sintaxe segue o exemplo:
+hash_exemplo = {curso: 'ruby', idioma: 'português', local: 'brasil'}
+Note que a maneira de escrita lembra a formatação de um arquivo Json.
+
+A tipagem do Ruby é dinâmica e forte, não tornando possível
+misturar classes diferentes de dados em uma mesma variável
+ou um mesmo Array.
