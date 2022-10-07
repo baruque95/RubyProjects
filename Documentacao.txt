@@ -35,4 +35,13 @@ no programa estruturas_de_controle.rb.
 
 Quanto às iterações, existe um operador diferente chamado Times.
 Ele é uma espécie de loop, que executa determinado bloco de instruções
-times número de vezes.
+times número de vezes. Lembrando que o for ainda é melhor utilizado
+em casos como iterações em coleções de elementos que não sabemos a 
+quantidade exata. Detalhe da sintaxe do Times no arquivo iteracoes.rb
+
+A instrução break funciona também da seguinte forma no Ruby:
+break if condição. Desta forma, pode-se fazer um break condicional
+sem abrir um bloco if. 
+
+Sintaxe do loop Do é loop do bloco. Mais detalhes no arquivo
+iteracoes.rb. 
