@@ -25,3 +25,14 @@ ou um mesmo Array.
 
 Input: gets.chomp <----- pega o input do usuário (exemplo
 no arquivo hello)
+
+Operador unless: é o contrário do if. Executa o código caso a
+condição seja falsa.
+
+No switch case do ruby, a sintaxe é diferente do java. Usa-se
+case variável when valor bloco. Esta sintaxe é melhor detalhada
+no programa estruturas_de_controle.rb. 
+
+Quanto às iterações, existe um operador diferente chamado Times.
+Ele é uma espécie de loop, que executa determinado bloco de instruções
+times número de vezes.
