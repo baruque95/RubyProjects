@@ -1,0 +1,44 @@
+Arrays podem, como em outras linguagens, ser multidimensionais, podendo
+ser arrays de arrays. Comandos para manipular um array: push (adiciona
+1 elemento ao final do array), pop (remove e retorna o elemento ao
+final do array), insert(i, elemento)(onde i é o indice no Array), 
+Array[i], que acessa o i-ésimo elemento do Array. Existe, também, a 
+semântica de acessar um intervalo de índices, como o seguinte exemplo:
+Array[1..3], que vai acessar os índices entre 1 e 3, ou seja, 1, 2 e 3.
+Também é possível acessar os índices contando a partir do final, usando
+os índices -1, -2, -3... Analogamente, existem os métodos de classe
+x.last e x.first, onde x é o nome do array. 
+
+Outros métodos de classe importantes do Array: .count, que conta os
+elementos do Array, .lenght, que diz o tamanho do array, .empty?, que
+diz se o Array está vazio,  .include?(e), que verifica se um elemento
+está dentro do array, .delete_at(i), que deleta um elemento no indice i,
+.shift, que deleta o primeiro elemento do array, diferentemente do pop.
+
+Repare que o insert adiciona um elemento ao determinado índice do
+array, porém sem remover o elemento que ali estava. Ou seja, todos
+os elementos do Array serão empurrados para 1 índice à frente.
+Exemplo: [1, 3, 4] <- insert(1, 2) -> [1, 2, 3, 4], onde foi adicionado
+o numero 2 no índice 1 do array. Logo, os números 3 e 4 que estavam nos
+índices 1 e 2 passaram para os índices 2 e 3. Um valor pode ser
+atribuído a um índice da seguinte forma: Array[i] = x, onde i é o 
+índice onde será inserido o valor x no Array.
+
+Hashes: sintaxe para criaçao de hash: hash = "Hash.new" ou "hash = {}"
+Na Hash, um valor está sempre atrelado a uma chave do tipo symbol.
+Exemplo de criação de hash: capitais = { acre: 'Rio Branco',
+rio_de_janeiro: 'Rio de Janeiro', sao_paulo: 'São Paulo'} onde os
+valores antes dos : são a chave e os depois são os valores.
+
+Alguns métodos da classe hash: 
+Para adicionar uma nova entrada -> hash[:nova_chave] = 'Novo Valor'
+P ver as chaves -> hash.keys
+Ver os valores -> hash. values
+Deletar uma chave -> hash.delete(:chave)
+Saber o tamanho da hash -> hash.size
+Se está vazio -> hash.empty?
+
+As Collections possuem algumas iterações exclusivas além das já vistas
+anteriormente: each, que percorre a coleção inteira, map, que cria um
+array baseado em valores de outro array e o Select, que seleciona
+elementos diante de uma condição.
