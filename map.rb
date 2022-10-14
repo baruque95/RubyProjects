@@ -17,7 +17,7 @@ puts "#{array_duplicado}"
 puts "\n Executando .map! multiplicando cada item por 2: "
 # o .map! força que o conteúdo do array original também seja alterado.
 
-new_array = array.map! do |elem|
+new_array = array.map! do |elem|     # Neste caso, a atribuição não é necessária.
     elem *2
 end
 
