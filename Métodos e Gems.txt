@@ -1,0 +1,29 @@
+    A sintaxe para a declaração de um método é a seguinte:
+    def metodo parametro
+        funçao
+    end
+
+    ou 
+
+    def metodo(parametro1, parametro2)
+        função
+    end
+
+    Caso queiramos passar um parâmetro ou mais e torná-los opcionais,
+    podemos também declarar da seguinte forma, dando seu valor na
+    definição da função.
+
+    def metodo(parametro = 'valor x')
+        puts parametro
+    end
+
+    onde, caso o valor do parâmetro seja passado ao chamar o método, como
+    por exemplo:
+
+    metodo('valor y')
+
+    ele assumirá o valor y, mas caso o método seja chamado sem passarmos 
+    nenhum parâmetro, o seu valor padrão será o valor especificado na
+    criação do método, retornando 'valor x'
+
+        
