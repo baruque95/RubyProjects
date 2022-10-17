@@ -1,4 +1,5 @@
     A sintaxe para a declaração de um método é a seguinte:
+    
     def metodo parametro
         funçao
     end
