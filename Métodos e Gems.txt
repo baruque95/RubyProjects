@@ -27,4 +27,16 @@
     nenhum parâmetro, o seu valor padrão será o valor especificado na
     criação do método, retornando 'valor x'
 
+    As Gems são normalmente administradas pelo bundler, uma gem específica
+    para esse fim. Desta forma, ao rodar um programa codado em ruby em 
+    outra maquina, o desenvolvedor precisa usar apenas o comando bundle,
+    ao invés de baixar todas as gems uma por uma. 
+
+    Cada gem tem um conjunto de métodos específico. Uma gem é como se fosse
+    uma biblioteca nas outras linguagens de programação. Como exemplo temos
+    a gem os, que dá permite a manipulação de informações sobre o computador
+    o qual está rodando o programa. 
+
+    Pode-se encontrar documentação sobre gems no site rubygems.org e no github,
+    onde tem-se a documentação de gems em específico.
         
