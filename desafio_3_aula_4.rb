@@ -5,6 +5,10 @@ numbers.each do |key, value|
     if value > maior
         maior = value
     end
-    return maior
 end
 
+numbers.each do |key, value|
+    if value == maior
+        puts "A chave com o maior valor é a #{key} com valor #{value}"
+    end
+end
