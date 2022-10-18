@@ -1,0 +1,27 @@
+Em Ruby, a programação orientada a objetos é bem similar a POO 
+de outras linguagens de programação. Com classes, objetos, métodos
+e polimorfismo. A sintaxe de criação de novas classe em Ruby é:
+
+class Classe
+    def metodo
+        função
+    end
+end
+
+Para casos de herança, ao criar uma classe, devemos colocar um <
+antes do nome da classe que será herdada pela nova classe:
+
+class Carro
+    rodas = 4
+end
+
+class Camaro < Carro
+    motor = 3000 cavalos
+end
+
+Desta forma, a classe Camaro terá 3000 cavalos, característica de
+sua própria classe, e terá 4 rodas, característica da classe carro
+que foi herdada pela classe Camaro.
+
+Lembrando: O Polimorfismo é a utilização de um mesmo método de
+formas diferentes dependendo da classe.
