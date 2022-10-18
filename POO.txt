@@ -25,3 +25,42 @@ que foi herdada pela classe Camaro.
 
 Lembrando: O Polimorfismo é a utilização de um mesmo método de
 formas diferentes dependendo da classe.
+
+No polimorfismo, quando uma classe herda uma outra classe, ela traz
+junto os seus métodos e atributos, porém pode ocorrer de algum de seus
+métodos não ser o ideal. Desta forma, aplica-se o polimorfismo da
+seguinte forma:
+
+class Veiculo
+    def acelerar
+        puts "pisando no acelerador..."
+    end
+
+    def frear
+        puts "freando..."
+    end
+end
+
+class Bicicleta < Veículo
+    def acelerar
+        puts "pedalando..."
+    end
+end
+
+Desta forma, a classe bicicleta vai herdar os métodos de veículo, porém
+o método de acelerar é diferente na bicicleta do que pode ser em 
+um carro, por exemplo. Então, ao chamar o método frear na bicicleta,
+o retorno será "freando...", porém ao chamar o método acelerar o retorno
+será "pedalando...", diferentemente do padrão da classe veículo.
+Isso é um exemplo de polimorfismo do método acelerar.
+
+Em casos de herança, ao chamar algum método, pode-se também se usar polimorfismo,
+chamando um mesmo método de duas formas diferentes: como super (da forma original
+da classe pai) e como polimorfismo, criando um método de mesmo nome dentro da classe:
+
+class Bicicleta_eletrica < Veículo
+    def acelerar
+        puts "pedalando ..."
+    end
+    super   # neste caso, o super chama o pedalando e o acelerando, visto que a 
+end         # bike elétrica pode tanto ser pedalada quanto acelerada.
