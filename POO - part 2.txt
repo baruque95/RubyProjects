@@ -1,0 +1,25 @@
+Require é o import do ruby, ou seja, é através dele que
+importamos classes diferentes para uma outra classe.
+Além disso, também é através deles que importamos uma 
+gem para dentro da classe. Sua sintaxe para uso segue,
+no cabeçalho do código, da seguinte forma:
+
+require Classe      # Caso nosso console esteja na mesma pasta onde
+                    # está a classe a ser importada
+
+require_relative    # Caso o arquivo esteja na mesma pasta do arquivo
+                    # que está fazendo a importação, não importando o console
+
+Escopos de variáveis:
+
+variavel é uma variável local
+
+$variavel é uma variável global (deve-se atentar ao seu uso, pois é perigoso,
+dado que esse tipo de variável pode ser acessada de qualquer lugar do programa.
+É um tipo de variável pouco usada.)
+
+@@variavel é uma variável de classe, podendo ser acessada em qualquer instância
+de uma classe. é um tipo de variável pouco usada.
+
+@variavel é uma variável de instância, bastante comum, sendo válida apenas para
+uma instância (objeto, por exemplo). 
