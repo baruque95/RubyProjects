@@ -22,4 +22,6 @@ dado que esse tipo de variável pode ser acessada de qualquer lugar do programa.
 de uma classe. é um tipo de variável pouco usada.
 
 @variavel é uma variável de instância, bastante comum, sendo válida apenas para
-uma instância (objeto, por exemplo). 
+uma instância (objeto, por exemplo). Ao criar dois objetos diferentes de uma mesma
+classe, cada objeto pode vir a ter um valor diferente para a mesma variável.
+Os atributos de uma classe são variáveis de instância, por exemplo.
