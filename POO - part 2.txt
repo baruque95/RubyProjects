@@ -25,3 +25,9 @@ de uma classe. é um tipo de variável pouco usada.
 uma instância (objeto, por exemplo). Ao criar dois objetos diferentes de uma mesma
 classe, cada objeto pode vir a ter um valor diferente para a mesma variável.
 Os atributos de uma classe são variáveis de instância, por exemplo.
+
+Ao escrever os atributos de uma determinada classe criada, podemos atribuir da
+forma "attr_accessor :atributo1, :atributo2". Desta forma, os atributos terão
+por padrão o método de mesmo nome, podendo ser acessado por objeto.atributo1,
+que irá retornar o valor atribuído a esse atributo no objeto. 
+
