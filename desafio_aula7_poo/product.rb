@@ -1,5 +1,6 @@
 class Product
     attr_accessor :name, :price
+
     
     def initialize(name, price)
         @name = name
@@ -7,7 +8,7 @@ class Product
     end
 end
 
-@@allproducts = []
+$allproducts = []
 
 def create_product
     p "Type the name of the product: "
@@ -15,21 +16,24 @@ def create_product
     p "Type the price of this product: "
     price = gets.chomp.to_f 
 
-    product.check
+    check
     product = Product.new(name, price)
 end
 
 def list_products
-    return @@allproducts
+    $allproducts.each do |name, price|
+        puts product.name
+        puts product.type
+    end
 end
 
 def check
-    @@allproducts.each do |name|
+    $allproducts.each do |name|
         if name == product.name
             puts "Produto já adicionado: "
             break
         else
-            @@allproducts.add(product)
+            $allproducts.push(product)
         end
     end 
 end
