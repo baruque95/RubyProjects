@@ -1,0 +1,5 @@
+Blocos são conjuntos de código que podem ser codados de algumas formas
+diferentes. Dentre elas, a definição de um método, onde as instruções
+são um bloco e na chamada de um método utilizando { x } com o bloco x 
+sendo um parâmetro. Neste segundo caso, se chamarmos a instrução yield
+dentro de um método, ele irá executar o bloco no parâmetro.

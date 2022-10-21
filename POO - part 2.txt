@@ -31,3 +31,6 @@ forma "attr_accessor :atributo1, :atributo2". Desta forma, os atributos terão
 por padrão o método de mesmo nome, podendo ser acessado por objeto.atributo1,
 que irá retornar o valor atribuído a esse atributo no objeto. 
 
+Criar o contrutor de uma determinada classe se faz na criação da própria classe,
+com o método initialize(atributo1, atributo2), que trará como parâmetros os atributos
+da classe. 
