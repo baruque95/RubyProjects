@@ -1,7 +1,11 @@
-require_relative 'product.rb'
+require './product.rb'
 
 class Market
-    def initialize(Product)
-        
+    def initialize(produto)
+        @produto = produto
+    end
+
+    def comprar
+        puts "Você comprou o produto #{@produto.name} no valor de #{@produto.price}"
     end
 end
