@@ -22,4 +22,6 @@ resumindo, um método com parâmentros chamou dentro de um loop um bloco
 que, por sua vez, entrou como parâmetro e que trazia os seus próprios 
 parâmetros. 
 
+Closures em ruby: Blocks, Procs e Lambdas
+
 Lambdas
