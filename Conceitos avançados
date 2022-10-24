@@ -3,3 +3,23 @@ diferentes. Dentre elas, a definição de um método, onde as instruções
 são um bloco e na chamada de um método utilizando { x } com o bloco x 
 sendo um parâmetro. Neste segundo caso, se chamarmos a instrução yield
 dentro de um método, ele irá executar o bloco no parâmetro.
+
+Quando criamos um método, suas funções pré-existentes são executadas. Caso 
+haja algum yield, o bloco passado como parâmetro na chamada do método será
+executado junto ao código, na parte onde ele é chamado dentro do método.
+Em casos de métodos que já exigem parâmetro, deve-se passar a instância
+&block como segundo parametro da seguinte forma: method(par1, &block). 
+Desta forma, o bloco deverá ser passado como parâmetro, ou o código não
+irá mais funcionar.
+
+Como mostra o exemplo no arquivo block.rb, é possível chamar um bloco 
+como parâmetro de uma função e executar este bloco em alguma estrutura
+dentro da própria função, como por exemplo dentro de um loop. 
+
+No exemplo, o método chama um bloco, que, por sua vez, chama os parâmetros
+key e value para fazer as operações de soma e multiplicação. Então,
+resumindo, um método com parâmentros chamou dentro de um loop um bloco
+que, por sua vez, entrou como parâmetro e que trazia os seus próprios 
+parâmetros. 
+
+Lambdas
