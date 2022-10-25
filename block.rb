@@ -16,8 +16,6 @@ end
 
 foo('Gabriel'){puts "Hello, #{@name}"}
 
-=end
-
 def foo(numbers, &block)
     if block_given?
         numbers.each do |key, value|
@@ -33,3 +31,12 @@ foo(numbers) do |key, value|
     puts "#{key} + #{value} = #{key + value}"
     puts "---"
 end
+
+=end
+
+def my_skills
+    yield "procs"
+    yield "blocks"
+  end
+
+  my_skills { |skill| puts "I am skilled in Ruby #{skill}" }

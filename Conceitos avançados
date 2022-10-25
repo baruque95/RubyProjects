@@ -24,4 +24,10 @@ parâmetros.
 
 Closures em ruby: Blocks, Procs e Lambdas
 
-Lambdas
+Lambdas são também snippets de códigos, porém são armazenados em variáveis
+e, portanto, podem ser passados para um método como parâmetro. Isso traz
+flexibilidade no uso, diferenciando do método comum e do bloco, que, quando
+trazido para um método como parâmetro, precisa ser referenciado com &block e
+suas instruções devem estar na chamada do método. No arquivo lambda.rb, a 
+lambda é passada como parâmetro do método chama_lambda, e então é executada
+dentro do método.

@@ -1,0 +1,7 @@
+Um módulo reune métodos e classes específicos, que pertecem a ele e que
+são chamadas da forma Modulo::metodo. Um determinado módulo pode ser 
+chamado para dentro de uma função por meio do método include, que chama
+um módulo junto de todos seus métodos. Isso permite que os métodos do
+módulo sejam chamados dispensando o Modulo::, chamando diretamente metodo.
+Esse tipo de implementação se chama mixins. Um exemplo desta implementação
+se encontra no arquivo mixins.
