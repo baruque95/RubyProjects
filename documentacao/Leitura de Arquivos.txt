@@ -1,0 +1,3 @@
+O ruby possui uma classe built-in chamada File, que possui alguns
+métodos, como o método read. Com este método, é possível ler o 
+conteúdo de algum determinado arquivo.
