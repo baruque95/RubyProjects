@@ -1,0 +1,11 @@
+A classe Net::HTTP é a classe responsável por fazer chamados da web.
+Isso é muito usado, pois abre uma gama de novas possibilidades para
+os nossos programas.
+
+No exemplo do arquivo web_get.rb, o nosso programa chama da internet
+a página http do exemplo.com e, por meio do loop, ele traz o código
+html da página e escreve no nosso arquivo exemplo.html. 
+
+Quando é utilizado https, o site é mais seguro e, portanto, existe
+uma forma diferente de fazer o chamado web, como mostra o exemplo
+no arquivo https.rb. 

@@ -1,3 +1,9 @@
 O ruby possui uma classe built-in chamada File, que possui alguns
 métodos, como o método read. Com este método, é possível ler o 
 conteúdo de algum determinado arquivo.
+
+A classe possui chamada com File.open('nome_do_arquivo','modo'),
+onde o modo pode ser o padrão, apenas leitura quando não é passado
+nenhum segundo parâmetro, 'r' apenas leitura, 'w' apenas escrita
+e 'a', para adicionar novas entradas no arquivo, dentre outros.
+
