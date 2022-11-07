@@ -9,3 +9,9 @@ html da página e escreve no nosso arquivo exemplo.html.
 Quando é utilizado https, o site é mais seguro e, portanto, existe
 uma forma diferente de fazer o chamado web, como mostra o exemplo
 no arquivo https.rb. 
+
+Existe uma gem chamada HTTParty, que é mais fácil de usar e mais
+interativa que os métodos built-in da própria linguagem ruby.
+Para fazer upload de arquivos, existe a gem faraday. Para fazer
+chamadas periódicas, existe o Typhoeus, que é a melhor opção 
+quando se pensando em chamadas por segundo.

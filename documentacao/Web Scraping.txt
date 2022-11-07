@@ -1,0 +1,5 @@
+O Web scraping se trata da extração de dados de um site 
+a partir do seu HTML. Existem algumas ferramentas Para
+se fazer este procedimento. A gem usada para isso em Ruby
+é a Nokogiri. Esta gem é default no Rails.
+
